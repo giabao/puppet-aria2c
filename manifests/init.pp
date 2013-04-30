@@ -10,7 +10,7 @@
 #
 # Sample Usage: ?
 #
-class aria2c($version='1.15.1-1', $nettle='2.2-1'){
+class aria2c($version='1.16.4-1', $nettle='2.2-1'){
   if ($::operatingsystem != 'CentOS' or $::architecture != 'x86_64') {
     fail('CentOS x86_64 only!')
   }
