@@ -8,14 +8,14 @@
   "summary": "puppet module for downloading files with aria2",
   "version": "1.0.0",
   "checksums": {
-    "Modulefile": "2b3f88d8154c4752f2da1f8e41713b6c",
-    "README.markdown": "cc43f320eb6fd886fa0240193d7430d1",
-    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
-    "manifests/fetch.pp": "6edd9800f022eb05b8a009515a513fe5",
-    "manifests/init.pp": "e84b1d24bce199fe853fc174fec19134",
-    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
-    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
-    "tests/init.pp": "2e8e60fa09a02844a4d6ea8203a4d300"
+    "Modulefile": "2f1b9d611a3a59b76653094e2f314aba",
+    "README.markdown": "41173ae0a4d9ebd755731f8e7d147078",
+    "Rakefile": "ec641f9abbcd37cbe618d5c3c7673314",
+    "manifests\\fetch.pp": "c895460d41268a224d96a05cb9205319",
+    "manifests\\init.pp": "be11e16eb5662bb51c9f41f320fd4fbf",
+    "spec\\spec.opts": "eb547b31184006017b3f6d6e2f1bbc12",
+    "spec\\spec_helper.rb": "2553c1effba7428583143e8f908fac3a",
+    "tests\\init.pp": "c0d20b5d55661da110054eb98bde86d9"
   },
   "dependencies": [
     {
