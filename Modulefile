@@ -1,5 +1,5 @@
 name 'sandinh-aria2c'
-version '1.0.1'
+version '1.0.2'
 
 author 'San Dinh'
 license 'Apache License, Version 2.0'
