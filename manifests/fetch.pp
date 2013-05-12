@@ -25,7 +25,8 @@ define aria2c::fetch(
 
     #cache's parent directory
     $d = regsubst($c, '^(.*)/[^/]+$', '\1')
-    exec {"/bin/mkdir -p $d":
+    exec {"mk parent dir for cache $name":
+      command => "/bin/mkdir -p $d",
       creates => $d,
     }->
     exec {"/bin/cp -T $dest $c":
