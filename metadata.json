@@ -1,12 +1,16 @@
 {
   "name": "sandinh-aria2c",
+  "version": "1.0.4",
+  "summary": "puppet module for downloading files with aria2",
   "author": "San Dinh",
   "description": "@see http://aria2.sourceforge.net/\n\ncurrently support only centos 6 x64",
-  "license": "Apache License, Version 2.0",
-  "project_page": "http://sandinh.com",
-  "source": "https://github.com/giabao/puppet-aria2c.git",
-  "summary": "puppet module for downloading files with aria2",
-  "version": "1.0.4",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "\u003e\u003d3.2.0"
+    }
+  ],
+  "types": [],
   "checksums": {
     "Modulefile": "6473350380988f2b9fedec92b3a07032",
     "README.markdown": "41173ae0a4d9ebd755731f8e7d147078",
@@ -17,10 +21,7 @@
     "spec\\spec_helper.rb": "2553c1effba7428583143e8f908fac3a",
     "tests\\init.pp": "c0d20b5d55661da110054eb98bde86d9"
   },
-  "dependencies": [
-    {
-      "name": "puppetlabs/stdlib",
-      "version_requirement": "\u003e\u003d3.2.0"
-    }
-  ]
+  "source": "https://github.com/giabao/puppet-aria2c.git",
+  "project_page": "http://sandinh.com",
+  "license": "Apache License, Version 2.0"
 }
